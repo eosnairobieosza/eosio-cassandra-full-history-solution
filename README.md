@@ -44,7 +44,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Rory Mapstone** - *EOS ZA* - [EOS ZA](hhttps://eosza.io/)
+* **Rory Mapstone** - *EOS ZA* - [EOS ZA](https://eosza.io/)
 * **Daniel Kimotho** - *EOS Nairobi* - [EOS Nairobi](http://eosnairobi.io)
 
 
