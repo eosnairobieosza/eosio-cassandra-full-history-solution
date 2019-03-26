@@ -18,20 +18,20 @@ Because Cassandra handles redundancy at a system level nodes can be built with c
 ##Technical references
 A considerable amount of work has been done by the EOS community on solutions to the full history. This project will draw on the work done by other teams in order to mitigate project risks. Notable references are;
 * [EOSIO RPC API developers reference](https://developers.eos.io/eosio-nodeos/reference) - This reference defines the history API endpoints.
-*[EOSIO history plugin] (https://github.com/EOSIO/eos/tree/master/plugins/history_plugin)- Original EOS history plugin.
-*[EOSIO history API plugin, https://github.com/EOSIO/eos/tree/master/plugins/history_api_plugin
+* [EOSIO history plugin] (https://github.com/EOSIO/eos/tree/master/plugins/history_plugin)- Original EOS history plugin.
+* [EOSIO history API plugin, https://github.com/EOSIO/eos/tree/master/plugins/history_api_plugin
 Original EOSIO history API plugin.
-*[EOSIO MongoDB plugin, https://github.com/EOSIO/eos/tree/master/plugins/mongo_db_plugin
+* [EOSIO MongoDB plugin, https://github.com/EOSIO/eos/tree/master/plugins/mongo_db_plugin
 The EOSIO MongoDB plugin which was created to replace the (deprecated) history and history API plugins.
-*[Greymass hapi branch of history plugin, https://github.com/greymass/eos/tree/hapi-production/plugins/history_plugin
+* [Greymass hapi branch of history plugin, https://github.com/greymass/eos/tree/hapi-production/plugins/history_plugin
 Modifications to the EOSIO history plugin which resolve shortcomings in the original EOSIO history plugin by splitting the history file into multiple smaller files. This allows the history plugin to continue working on the EOS mainnet.
-*[EOS Lao Mao Elasticsearch plugin, https://github.com/EOSLaoMao/elasticsearch_plugin
+* [EOS Lao Mao Elasticsearch plugin, https://github.com/EOSLaoMao/elasticsearch_plugin
 An alternative “DB” plugin by EOS Lao Mao which allows history records to be stored in Elasticsearch instead of MongoDB. Benchmarks show approximately 250% performance improvements over MongoDB.
-*[Atticlab Elasticsearch history API, https://github.com/atticlab/eos-es-historyapi
+* [Atticlab Elasticsearch history API, https://github.com/atticlab/eos-es-historyapi
 An EOS history API by Atticlab based on Elasticsearch and built using GO. Something similar will be required to deliver history API services on Cassandra.
-*[Public work proposals for EOS infrastructure, EOS Chronicle Project], (https://github.com/EOSChronicleProject/eos-chronicle)
-*[EOS zmq Plugin Receiver](https://github.com/cc32d9/eos_zmq_plugin_receiver)
-*[EOS zmq Plugin](https://github.com/cc32d9/eos_zmq_plugin)
+* [Public work proposals for EOS infrastructure, EOS Chronicle Project], (https://github.com/EOSChronicleProject/eos-chronicle)
+* [EOS zmq Plugin Receiver](https://github.com/cc32d9/eos_zmq_plugin_receiver)
+* [EOS zmq Plugin](https://github.com/cc32d9/eos_zmq_plugin)
 
 
 ## Contributing
