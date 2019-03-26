@@ -15,7 +15,8 @@ Because Cassandra handles redundancy at a system level nodes can be built with c
 *Cassandra is rack and data center aware. Nodes can be distributed in multiple racks and in multiple data centers. Data will automatically be distributed efficiently between remote nodes.
 
 
-##Technical references
+## Technical references
+
 A considerable amount of work has been done by the EOS community on solutions to the full history. This project will draw on the work done by other teams in order to mitigate project risks. Notable references are;
 * [EOSIO RPC API developers reference](https://developers.eos.io/eosio-nodeos/reference) - This reference defines the history API endpoints.
 * [EOSIO history plugin] (https://github.com/EOSIO/eos/tree/master/plugins/history_plugin)- Original EOS history plugin.
